@@ -43,18 +43,42 @@ O uso da linguagem Ruby para automatizar testes de software torna o processo mai
 * Faker [Gem Faker](https://github.com/faker-ruby/faker)
 * Cpf_faker [Gem Cpf_faker](https://github.com/bernardo/cpf_faker/) 
 
-### Organização
+## Organização
 
-* `2.TesteAutomatizadoWeb` - Pasta raiz do projeto 
-* `Specs` - Pasta com os cenários em `Gherkin`, usando `BDD` e `Cucumber`
-* `Step_definitions` - Pasta com o script de automação
-* `Support` - Pasta com arquivos de `pages`, `env` e `hooks` 
-* `Pages` - Pasta com elementos mapeados, `page object` e `classes`
-* `env` contém a configuração do ambiente
-* `hooks` contém configurações para inicializar `classes`
-* `Config` – Pasta com configurações para executar o teste
-* `Gemfile` – Arquivo com as `GEMs` do projeto
+### 1.IdentifiqueFluxosCríticos
 
+* `Code Challenge - QA` - PDF com as regras do desafio.
+* `Testes de software com Ruby`PDF com por que automatizar testes com Ruby.
+* `Ze Delivery - Casos de Teste` Xlsx com os casos de testes abordados.
+* `Ze Delivery - Fluxos Críticos` PDF com os fluxos críticos escolhidos.
+* `Ze Delivery - Teste Web` Gif do teste rodando a API.
+* `Ze Delivery - Teste Cmder` Gif do teste sendo executado no Cmder.
+* `Ze Delivery - Teste Web` Gif do teste rodando a página web.
+
+### 2.TesteAutomatizadoWeb
+
+* `2.TesteAutomatizadoWeb` - Pasta raiz do projeto.
+* `Features` - Pasta com as `specs`, `step definitions` e `support`.
+* `Specs` - Pasta com os cenários em `Gherkin`, usando `BDD` e `Cucumber`.
+* `Step_definitions` - Pasta com o script de automação.
+* `Support` - Pasta com arquivos de `pages`, `env` e `hooks`. 
+* `Pages` - Pasta com elementos mapeados, `page object` e `classes`.
+* `env` contém a configuração do ambiente.
+* `hooks` contém configurações para inicializar `classes`.
+* `Config` – Pasta com configurações para executar o teste.
+* `Gemfile` – Arquivo com as `GEMs` do projeto.
+
+### 3.TesteAutomatizadoAPI
+
+* `3.TesteAutomatizadoAPIadoWeb` - Pasta raiz do projeto.
+* `Features` - Pasta com as `specs`, `step definitions` e `support`.
+* `Specs` - Pasta com os cenários em `Gherkin`, usando `BDD` e `Cucumber`.
+* `Step_definitions` - Pasta com o script de automação.
+* `Support` - Pasta com arquivos de `pages`, `env`. 
+* `Pages` - Pasta com elementos `page object` e `classes`.
+* `env` contém a configuração do ambiente.
+* `Config` – Pasta com configurações para executar o teste.
+* `Gemfile` – Arquivo com as `GEMs` do projeto.
 
 ## Instruções de instalação
 
@@ -122,21 +146,22 @@ cucumber -p firefox_headless
 
 ![web2](https://user-images.githubusercontent.com/64233343/84860662-da4e0680-b045-11ea-9823-c153cdfbc029.gif)
 
+![Ze Delivery - Teste API](https://user-images.githubusercontent.com/64233343/84928005-12843200-b0a4-11ea-8828-039954d2200a.gif)
 
 
 # Observações
 
-1 - O site pode apresentar instabilidade durante o teste, sendo necessário executar o teste uma segunda vez para que aceite todos os parâmetros.<br />
+`1 -` O site pode apresentar instabilidade durante o teste, sendo necessário executar o teste uma segunda vez para que aceite todos os parâmetros.<br />
 
-2 – O teste pode apresentar falha caso o e-mail do usuário fake já tenha sido utilizado, favor executar o teste novamente.<br />
+`2 –` O teste pode apresentar falha caso o e-mail do usuário fake já tenha sido utilizado, favor executar o teste novamente.<br />
 
-3 - O cenário @SelecaoDeProduto pode apresentar falha caso o produto selecionado não estiver disponível no momento do teste, isso pode mudar de acordo com o horário em que o teste é realizado, caso necessário poderá escolher um novo produto.<br /> 
+`3 -`O cenário @SelecaoDeProduto pode apresentar falha caso o produto selecionado não estiver disponível no momento do teste, isso pode mudar de acordo com o horário em que o teste é realizado, caso necessário poderá escolher um novo produto.<br /> 
 
 ```bash
 - Basta seguir o caminho: 2. TesteAutomatizadoWeb\features\support\pages\search_page.rb
 - Na função busca_produto alterar "Skol 269ml" para um produto disponível no momento.
 ```
-4 - O cenário @BuscaRetornavel pode apresentar falha caso o produto selecionado não estiver disponível no momento do teste, isso pode mudar de acordo o horário em que o teste é realizado, caso necessário poderá escolher um novo produto. <br />
+`4 -` O cenário @BuscaRetornavel pode apresentar falha caso o produto selecionado não estiver disponível no momento do teste, isso pode mudar de acordo o horário em que o teste é realizado, caso necessário poderá escolher um novo produto. <br />
 
 ```bash
 - Basta seguir o caminho: 2. TesteAutomatizadoWeb\features\support\pages\search_page.rb
