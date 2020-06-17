@@ -1,4 +1,7 @@
-# QA Challenge – Zé Delivery
+
+<h1 align="center">
+  # QA Challenge – Zé Delivery
+</h1>
 
 Sobre o desafio
 
@@ -13,7 +16,7 @@ Em nosso aplicativo Web crie um conjunto de testes de automação para um cenár
 ### 3. Teste de automação de API	
 Crie testes automatizados para obter tempo usando API Open Weather http://openweathermap.org/current
 
-## Construído com
+## Construído com:
 
 Este é um teste automatizado projetado usando a linguagem Ruby e Cubumber com estrutura de cenários orientados por comportamento BDD que possui uma documentação muito dinâmica.<br /> 
 
@@ -53,13 +56,16 @@ O uso da linguagem Ruby para automatizar testes de software torna o processo mai
 * `Gemfile` – Arquivo com as `GEMs` do projeto
 
 
-### Instruções de instalação
+## Instruções de instalação
 
 > Instalar o Visual Studio
 ```bash
 https://code.visualstudio.com/
 ```
 > Instalar o driver do Chrome ou Firefox
+Windows: Baixar o arquivo e extrair na pasta C:/windows <br />
+Mac e Linux: Extrair dentro da pasta USR/LOCAL/BIN
+
 ```bash
 ChromeDriver https://chromedriver.chromium.org/
 GeckoDriver https://github.com/mozilla/geckodriver
@@ -85,7 +91,7 @@ gem install bundler
 bundle install
 ```
 
-### Instruções de execução 
+## Instruções de execução 
 
 Use os comandos listados abaixo no CMD diretamente na pasta raiz. <br />
 No VSCode abra a pasta raiz, acesse o terminal e execute os comandos listados abaixo. 
@@ -112,6 +118,9 @@ cucumber -p chrome_headless
 ```bash
 cucumber -p firefox_headless
 ```
+(https://github.com/GustavoMachado22/QAChallengeZeDelivery/blob/master/1.%20IdentifiqueFluxosCr%C3%ADticos/Ze%20Delivery%20-%20Teste%20Cmder.gif)
+
+https://github.com/GustavoMachado22/QAChallengeZeDelivery/blob/master/1.%20IdentifiqueFluxosCr%C3%ADticos/Ze%20Delivery%20-%20Teste%20Web.gif
 
 # Observações
 
@@ -129,7 +138,8 @@ cucumber -p firefox_headless
 
 ```bash
 - Basta seguir o caminho: 2. TesteAutomatizadoWeb\features\support\pages\search_page.rb
-- Na função busca_retornavel alterar "Original 600ml | Apenas o Líquido" para um produto que seja necessário garrafas retornáveis disponível no momento.
+- Na função busca_retornavel alterar "Original 600ml | Apenas o Líquido" 
+para um produto que seja necessário garrafas retornáveis disponível no momento.
 ```
 
 ## Autor
