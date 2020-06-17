@@ -1,9 +1,9 @@
 
 <h1 align="center">
-  # QA Challenge – Zé Delivery
+   QA Challenge – Zé Delivery
 </h1>
 
-Sobre o desafio
+# Sobre o Desafio
 
 ### 1. Identifique fluxos críticos
 
@@ -15,6 +15,8 @@ Em nosso aplicativo Web crie um conjunto de testes de automação para um cenár
 
 ### 3. Teste de automação de API	
 Crie testes automatizados para obter tempo usando API Open Weather http://openweathermap.org/current
+
+# Sobre o Teste 
 
 ## Construído com:
 
@@ -43,7 +45,9 @@ O uso da linguagem Ruby para automatizar testes de software torna o processo mai
 * Faker [Gem Faker](https://github.com/faker-ruby/faker)
 * Cpf_faker [Gem Cpf_faker](https://github.com/bernardo/cpf_faker/) 
 
-## Organização
+<h1 align="center">
+   Organização
+</h1>
 
 ### 1.IdentifiqueFluxosCríticos
 
@@ -79,6 +83,11 @@ O uso da linguagem Ruby para automatizar testes de software torna o processo mai
 * `env` contém a configuração do ambiente.
 * `Config` – Pasta com configurações para executar o teste.
 * `Gemfile` – Arquivo com as `GEMs` do projeto.
+
+
+<h1 align="center">
+   Instruções
+</h1>
 
 ## Instruções de instalação
 
@@ -149,7 +158,11 @@ cucumber -p firefox_headless
 ![Ze Delivery - Teste API](https://user-images.githubusercontent.com/64233343/84928005-12843200-b0a4-11ea-8828-039954d2200a.gif)
 
 
-# Observações
+
+<h1 align="center">
+  Observações
+</h1>
+
 
 `1 -` O site pode apresentar instabilidade durante o teste, sendo necessário executar o teste uma segunda vez para que aceite todos os parâmetros.<br />
 
