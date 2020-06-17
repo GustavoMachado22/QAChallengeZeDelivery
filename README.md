@@ -120,6 +120,9 @@ cucumber -p firefox_headless
 ```
 ![Ze Delivery - Teste Cmder](https://user-images.githubusercontent.com/64233343/84858852-59d9d680-b042-11ea-8dd1-39e1538e1fdf.gif)
 
+![web2](https://user-images.githubusercontent.com/64233343/84860662-da4e0680-b045-11ea-9823-c153cdfbc029.gif)
+
+
 
 # Observações
 
