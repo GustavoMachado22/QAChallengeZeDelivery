@@ -92,14 +92,14 @@ O uso da linguagem Ruby para automatizar testes de software torna o processo mai
 ## Instruções de instalação
 
 > Instalar o Visual Studio
-``` ruby
+```
 https://code.visualstudio.com/
 ```
 > Instalar o driver do Chrome ou Firefox
 Windows: Baixar o arquivo e extrair na pasta C:/windows <br />
 Mac e Linux: Extrair dentro da pasta USR/LOCAL/BIN
 
-``` ruby
+```
 ChromeDriver https://chromedriver.chromium.org/
 GeckoDriver https://github.com/mozilla/geckodriver
 ```
@@ -107,7 +107,7 @@ Windows: Baixar o arquivo e extrair na pasta C:/windows <br />
 Mac e Linux: Extrair dentro da pasta USR/LOCAL/BIN
 
 > Copie o projeto
-``` ruby
+```
 git clone https://github.com/GustavoMachado22/QAChallengeZeDelivey.git
 ```
 
@@ -150,13 +150,25 @@ cucumber -p chrome_headless
 
 ``` ruby
 cucumber -p firefox_headless
+
 ```
+<h1 align="center">
+  Teste Cmder
+</h1>
+
 ![Ze Delivery - Teste Cmder](https://user-images.githubusercontent.com/64233343/84858852-59d9d680-b042-11ea-8dd1-39e1538e1fdf.gif)
+
+<h1 align="center">
+  Teste Web
+</h1>
 
 ![web2](https://user-images.githubusercontent.com/64233343/84860662-da4e0680-b045-11ea-9823-c153cdfbc029.gif)
 
+<h1 align="center">
+  Teste API
+</h1>
+ 
 ![Ze Delivery - Teste API](https://user-images.githubusercontent.com/64233343/84928005-12843200-b0a4-11ea-8828-039954d2200a.gif)
-
 
 
 <h1 align="center">
@@ -170,13 +182,13 @@ cucumber -p firefox_headless
 
 `3 -`O cenário @SelecaoDeProduto pode apresentar falha caso o produto selecionado não estiver disponível no momento do teste, isso pode mudar de acordo com o horário em que o teste é realizado, caso necessário poderá escolher um novo produto.<br /> 
 
-``` ruby
+```
 - Basta seguir o caminho: 2. TesteAutomatizadoWeb\features\support\pages\search_page.rb
 - Na função busca_produto alterar "Skol 269ml" para um produto disponível no momento.
 ```
 `4 -` O cenário @BuscaRetornavel pode apresentar falha caso o produto selecionado não estiver disponível no momento do teste, isso pode mudar de acordo o horário em que o teste é realizado, caso necessário poderá escolher um novo produto. <br />
 
-``` ruby
+```
 - Basta seguir o caminho: 2. TesteAutomatizadoWeb\features\support\pages\search_page.rb
 - Na função busca_retornavel alterar "Original 600ml | Apenas o Líquido" 
 para um produto que seja necessário garrafas retornáveis disponível no momento.
