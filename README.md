@@ -52,12 +52,12 @@ O uso da linguagem Ruby para automatizar testes de software torna o processo mai
 ### 1.IdentifiqueFluxosCríticos
 
 * `Code Challenge - QA` - PDF com as regras do desafio.
-* `Testes de software com Ruby`PDF com por que automatizar testes com Ruby.
-* `Ze Delivery - Casos de Teste` Xlsx com os casos de testes abordados.
-* `Ze Delivery - Fluxos Críticos` PDF com os fluxos críticos escolhidos.
-* `Ze Delivery - Teste Web` Gif do teste rodando a API.
-* `Ze Delivery - Teste Cmder` Gif do teste sendo executado no Cmder.
-* `Ze Delivery - Teste Web` Gif do teste rodando a página web.
+* `Testes de software com Ruby` - PDF com por que automatizar testes com `Ruby`.
+* `Ze Delivery - Casos de Teste` - Xlsx com os casos de testes abordados.
+* `Ze Delivery - Fluxos Críticos` - PDF com os fluxos críticos escolhidos.
+* `Ze Delivery - Teste Web` - Gif do teste rodando a `API`.
+* `Ze Delivery - Teste Cmder` - Gif do teste sendo executado no `Cmder`.
+* `Ze Delivery - Teste Web` - Gif do teste rodando a página web.
 
 ### 2.TesteAutomatizadoWeb
 
@@ -103,8 +103,6 @@ Mac e Linux: Extrair dentro da pasta USR/LOCAL/BIN
 ChromeDriver https://chromedriver.chromium.org/
 GeckoDriver https://github.com/mozilla/geckodriver
 ```
-Windows: Baixar o arquivo e extrair na pasta C:/windows <br />
-Mac e Linux: Extrair dentro da pasta USR/LOCAL/BIN
 
 > Copie o projeto
 ```
