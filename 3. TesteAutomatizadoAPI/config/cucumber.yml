@@ -1,0 +1,7 @@
+default: -p chrome --no-source --color --format pretty
+cucumber: -r features
+dot: --format progress
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
